@@ -1,5 +1,0 @@
-FROM maven:3.6.3-openjdk-17
-WORKDIR /home/vagrant/project/hello-world-war/target/hello-world-war-1.0.0.war
-COPY . .
-RUN mvn compile
-ENTRYPOINT ["mvn", "test"]
