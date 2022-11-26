@@ -1,3 +1,3 @@
 FROM ubuntu
-WORKDIR /opt/tomcat/.jenkins/workspace/Project5-hello-world-war
+WORKDIR /var/lib/jenkins/Project5-hello-world-war
 COPY . .
