@@ -1,3 +1,3 @@
 FROM ubuntu
-WORKDIR /var/lib/jenkins/hello-world-war
+WORKDIR WORKDIR /var/lib/jenkins/workspace/pipeline-finalp
 COPY . .
