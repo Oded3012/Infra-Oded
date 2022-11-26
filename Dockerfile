@@ -1,3 +1,3 @@
 FROM ubuntu
-WORKDIR /var/lib/jenkins/Project5-hello-world-war
+WORKDIR /var/lib/jenkins/hello-world-war
 COPY . .
