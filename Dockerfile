@@ -1,3 +1,3 @@
 FROM ubuntu
-WORKDIR WORKDIR /var/lib/jenkins/workspace/pipeline-finalp
+WORKDIR WORKDIR /var/lib/jenkins/pipeline-finalp
 COPY . .
