@@ -1,4 +1,4 @@
-FROM bitnami/tomcat:9.0
+FROM bitnami/tomcat:latest
 ENV TOMCAT_ALLOW_REMOTE_MANAGEMENT=yes
 ENV TOMCAT_USERNAME=devops
 ENV TOMCAT_PASSWORD=devops
