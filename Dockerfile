@@ -1,7 +1,5 @@
-FROM bitnami/tomcat:latest
-ENV TOMCAT_ALLOW_REMOTE_MANAGEMENT=yes
-ENV TOMCAT_USERNAME=devops
-ENV TOMCAT_PASSWORD=devops
-COPY ./target/hello-world-war-1.0.0.war /opt/bitnami/tomcat/webapps
+FROM tomcat:latest
+RUN cp -R /usr/local/tomcat webpp.disp/* /usr/local/tomcatwebapps
+COPY ./target/hello-world-war-1.0.0.war /usr/local/tomcatwebapps
 
 
